@@ -9,7 +9,7 @@ import os
 import wget
 
 
-driver = webdriver.Chrome('C:/Users/Yongsheng/Desktop/selenium/chromedriver.exe')
+driver = webdriver.Chrome('C:***/**/**/chromedriver.exe')
 driver.get('https://www.instagram.com/')
 
 
@@ -32,7 +32,7 @@ login.click()
 search = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.XPATH, '//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/input'))
     )
-keyword = "#person"
+keyword = "****"
 search.send_keys(keyword)
 time.sleep(1)
 search.send_keys(Keys.RETURN)
