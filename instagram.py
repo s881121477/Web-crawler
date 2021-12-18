@@ -23,8 +23,8 @@ password = WebDriverWait(driver, 10).until(
 login = driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]')
 username.clear()
 password.clear()
-username.send_keys('0928778512')
-password.send_keys('yong88112488')
+username.send_keys('*****')
+password.send_keys('*****')
 login.click()
 
 
